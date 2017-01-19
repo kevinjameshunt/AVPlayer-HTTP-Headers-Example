@@ -1,5 +1,4 @@
-AVPlayerHTTPHeaders Example
-===========================
+# AVPlayer-HTTP-Headers-Example
 
 A working example of how to augment and retrieve HTTP headers on requests made by the iOS AVPlayer using a reverse proxy server on the device. 
 
