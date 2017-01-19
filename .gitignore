@@ -1,0 +1,74 @@
+.vagrant
+Berksfile.lock
+*~
+*#
+.#*
+\#*#
+.*.sw[a-z]
+*.un~
+/cookbooks
+*.versionsBackup
+*.orig
+*.log
+.svn/
+
+# Bundler
+Gemfile.lock
+bin/*
+.bundle/*
+
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+*.a
+*.pyc
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
+metafortress.dat
+
+# BlackBerry generated files #
+######################
+arm/
+x86/
+.preview*
+*.qm
+
+# Per Project Exclusions #
+######################
+
+/.travis.yml
+attributes/.travis.yml
+definitions/.travis.yml
+files/.travis.yml
+files/default/.travis.yml
+libraries/.travis.yml
+providers/.travis.yml
+recipes/.travis.yml
+resources/.travis.yml
+templates/.travis.yml
+templates/default/.travis.yml
+.buildpath
+.project
+.chefignore
+.settings
+.idea
+
+# XCode Related
+################
+xcuserdata/
+xcshareddata/
+

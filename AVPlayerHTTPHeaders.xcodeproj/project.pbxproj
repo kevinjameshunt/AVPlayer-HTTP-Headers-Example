@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04F4C41F1E301BCE0063E88E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F4C41E1E301BCE0063E88E /* main.m */; };
+		04F4C4221E301BCE0063E88E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F4C4211E301BCE0063E88E /* AppDelegate.m */; };
+		04F4C4251E301BCE0063E88E /* PlaybackHeadersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F4C4241E301BCE0063E88E /* PlaybackHeadersViewController.m */; };
+		04F4C4281E301BCE0063E88E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04F4C4261E301BCE0063E88E /* Main.storyboard */; };
+		04F4C42A1E301BCE0063E88E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04F4C4291E301BCE0063E88E /* Assets.xcassets */; };
+		04F4C42D1E301BCE0063E88E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04F4C42B1E301BCE0063E88E /* LaunchScreen.storyboard */; };
+		04F4C4361E301CA80063E88E /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04F4C4351E301CA80063E88E /* AVFoundation.framework */; };
+		04F4C4391E301CC90063E88E /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04F4C4371E301CC90063E88E /* CoreFoundation.framework */; };
+		04F4C43A1E301CC90063E88E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04F4C4381E301CC90063E88E /* CoreGraphics.framework */; };
+		04F4C43C1E301CD00063E88E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04F4C43B1E301CD00063E88E /* Foundation.framework */; };
+		04F4C43E1E301CD80063E88E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04F4C43D1E301CD80063E88E /* UIKit.framework */; };
+		04F4C4401E301CF10063E88E /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 04F4C43F1E301CF10063E88E /* libz.tbd */; };
+		04F4C4431E3020A80063E88E /* AVPlayerReverseProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F4C4421E3020A80063E88E /* AVPlayerReverseProxy.m */; };
+		0D5D1DCBB09E7F91417EB499 /* libPods-AVPlayerHTTPHeaders.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C39FE6AFC35E44B68C25030 /* libPods-AVPlayerHTTPHeaders.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		04F4C41A1E301BCE0063E88E /* AVPlayerHTTPHeaders.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AVPlayerHTTPHeaders.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04F4C41E1E301BCE0063E88E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04F4C4201E301BCE0063E88E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04F4C4211E301BCE0063E88E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04F4C4231E301BCE0063E88E /* PlaybackHeadersViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlaybackHeadersViewController.h; sourceTree = "<group>"; };
+		04F4C4241E301BCE0063E88E /* PlaybackHeadersViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlaybackHeadersViewController.m; sourceTree = "<group>"; };
+		04F4C4271E301BCE0063E88E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04F4C4291E301BCE0063E88E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04F4C42C1E301BCE0063E88E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04F4C42E1E301BCE0063E88E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04F4C4351E301CA80063E88E /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		04F4C4371E301CC90063E88E /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		04F4C4381E301CC90063E88E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		04F4C43B1E301CD00063E88E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		04F4C43D1E301CD80063E88E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		04F4C43F1E301CF10063E88E /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		04F4C4411E3020A80063E88E /* AVPlayerReverseProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVPlayerReverseProxy.h; sourceTree = "<group>"; };
+		04F4C4421E3020A80063E88E /* AVPlayerReverseProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVPlayerReverseProxy.m; sourceTree = "<group>"; };
+		17CE32C9C8C4ABF27FB5A7CD /* Pods-AVPlayerHTTPHeaders.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AVPlayerHTTPHeaders.release.xcconfig"; path = "Pods/Target Support Files/Pods-AVPlayerHTTPHeaders/Pods-AVPlayerHTTPHeaders.release.xcconfig"; sourceTree = "<group>"; };
+		4C39FE6AFC35E44B68C25030 /* libPods-AVPlayerHTTPHeaders.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AVPlayerHTTPHeaders.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F44A8BB4647C2FC277E40667 /* Pods-AVPlayerHTTPHeaders.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AVPlayerHTTPHeaders.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AVPlayerHTTPHeaders/Pods-AVPlayerHTTPHeaders.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04F4C4171E301BCE0063E88E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04F4C4401E301CF10063E88E /* libz.tbd in Frameworks */,
+				04F4C43E1E301CD80063E88E /* UIKit.framework in Frameworks */,
+				04F4C43C1E301CD00063E88E /* Foundation.framework in Frameworks */,
+				04F4C4391E301CC90063E88E /* CoreFoundation.framework in Frameworks */,
+				04F4C43A1E301CC90063E88E /* CoreGraphics.framework in Frameworks */,
+				04F4C4361E301CA80063E88E /* AVFoundation.framework in Frameworks */,
+				0D5D1DCBB09E7F91417EB499 /* libPods-AVPlayerHTTPHeaders.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04F4C4111E301BCE0063E88E = {
+			isa = PBXGroup;
+			children = (
+				04F4C41C1E301BCE0063E88E /* AVPlayerHTTPHeaders */,
+				04F4C41B1E301BCE0063E88E /* Products */,
+				04F4C4341E301CA80063E88E /* Frameworks */,
+				929398F0CD2BC0CBBE4D9904 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		04F4C41B1E301BCE0063E88E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04F4C41A1E301BCE0063E88E /* AVPlayerHTTPHeaders.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04F4C41C1E301BCE0063E88E /* AVPlayerHTTPHeaders */ = {
+			isa = PBXGroup;
+			children = (
+				04F4C4411E3020A80063E88E /* AVPlayerReverseProxy.h */,
+				04F4C4421E3020A80063E88E /* AVPlayerReverseProxy.m */,
+				04F4C4231E301BCE0063E88E /* PlaybackHeadersViewController.h */,
+				04F4C4241E301BCE0063E88E /* PlaybackHeadersViewController.m */,
+				04F4C4201E301BCE0063E88E /* AppDelegate.h */,
+				04F4C4211E301BCE0063E88E /* AppDelegate.m */,
+				04F4C4261E301BCE0063E88E /* Main.storyboard */,
+				04F4C4291E301BCE0063E88E /* Assets.xcassets */,
+				04F4C42B1E301BCE0063E88E /* LaunchScreen.storyboard */,
+				04F4C42E1E301BCE0063E88E /* Info.plist */,
+				04F4C41D1E301BCE0063E88E /* Supporting Files */,
+			);
+			path = AVPlayerHTTPHeaders;
+			sourceTree = "<group>";
+		};
+		04F4C41D1E301BCE0063E88E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04F4C41E1E301BCE0063E88E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04F4C4341E301CA80063E88E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04F4C43F1E301CF10063E88E /* libz.tbd */,
+				04F4C43D1E301CD80063E88E /* UIKit.framework */,
+				04F4C43B1E301CD00063E88E /* Foundation.framework */,
+				04F4C4371E301CC90063E88E /* CoreFoundation.framework */,
+				04F4C4381E301CC90063E88E /* CoreGraphics.framework */,
+				04F4C4351E301CA80063E88E /* AVFoundation.framework */,
+				4C39FE6AFC35E44B68C25030 /* libPods-AVPlayerHTTPHeaders.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		929398F0CD2BC0CBBE4D9904 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F44A8BB4647C2FC277E40667 /* Pods-AVPlayerHTTPHeaders.debug.xcconfig */,
+				17CE32C9C8C4ABF27FB5A7CD /* Pods-AVPlayerHTTPHeaders.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04F4C4191E301BCE0063E88E /* AVPlayerHTTPHeaders */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04F4C4311E301BCE0063E88E /* Build configuration list for PBXNativeTarget "AVPlayerHTTPHeaders" */;
+			buildPhases = (
+				EC4CDE8692B8F14736D281EB /* [CP] Check Pods Manifest.lock */,
+				04F4C4161E301BCE0063E88E /* Sources */,
+				04F4C4171E301BCE0063E88E /* Frameworks */,
+				04F4C4181E301BCE0063E88E /* Resources */,
+				3BAA9258018FA30D7A569334 /* [CP] Embed Pods Frameworks */,
+				E3A8378BACD0CE34F1AFB448 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AVPlayerHTTPHeaders;
+			productName = AVPlayerHTTPHeaders;
+			productReference = 04F4C41A1E301BCE0063E88E /* AVPlayerHTTPHeaders.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04F4C4121E301BCE0063E88E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Prophet Studios";
+				TargetAttributes = {
+					04F4C4191E301BCE0063E88E = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = V8SSGR3H48;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 04F4C4151E301BCE0063E88E /* Build configuration list for PBXProject "AVPlayerHTTPHeaders" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04F4C4111E301BCE0063E88E;
+			productRefGroup = 04F4C41B1E301BCE0063E88E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04F4C4191E301BCE0063E88E /* AVPlayerHTTPHeaders */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04F4C4181E301BCE0063E88E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04F4C42D1E301BCE0063E88E /* LaunchScreen.storyboard in Resources */,
+				04F4C42A1E301BCE0063E88E /* Assets.xcassets in Resources */,
+				04F4C4281E301BCE0063E88E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3BAA9258018FA30D7A569334 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AVPlayerHTTPHeaders/Pods-AVPlayerHTTPHeaders-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E3A8378BACD0CE34F1AFB448 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AVPlayerHTTPHeaders/Pods-AVPlayerHTTPHeaders-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC4CDE8692B8F14736D281EB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04F4C4161E301BCE0063E88E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04F4C4251E301BCE0063E88E /* PlaybackHeadersViewController.m in Sources */,
+				04F4C4221E301BCE0063E88E /* AppDelegate.m in Sources */,
+				04F4C4431E3020A80063E88E /* AVPlayerReverseProxy.m in Sources */,
+				04F4C41F1E301BCE0063E88E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		04F4C4261E301BCE0063E88E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04F4C4271E301BCE0063E88E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04F4C42B1E301BCE0063E88E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04F4C42C1E301BCE0063E88E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04F4C42F1E301BCE0063E88E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04F4C4301E301BCE0063E88E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04F4C4321E301BCE0063E88E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F44A8BB4647C2FC277E40667 /* Pods-AVPlayerHTTPHeaders.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = V8SSGR3H48;
+				INFOPLIST_FILE = AVPlayerHTTPHeaders/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.prophetstudios.AVPlayerHTTPHeaders;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		04F4C4331E301BCE0063E88E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17CE32C9C8C4ABF27FB5A7CD /* Pods-AVPlayerHTTPHeaders.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = V8SSGR3H48;
+				INFOPLIST_FILE = AVPlayerHTTPHeaders/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.prophetstudios.AVPlayerHTTPHeaders;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04F4C4151E301BCE0063E88E /* Build configuration list for PBXProject "AVPlayerHTTPHeaders" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04F4C42F1E301BCE0063E88E /* Debug */,
+				04F4C4301E301BCE0063E88E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04F4C4311E301BCE0063E88E /* Build configuration list for PBXNativeTarget "AVPlayerHTTPHeaders" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04F4C4321E301BCE0063E88E /* Debug */,
+				04F4C4331E301BCE0063E88E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04F4C4121E301BCE0063E88E /* Project object */;
+}
